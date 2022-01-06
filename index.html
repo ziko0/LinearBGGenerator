@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB generator</title>
+    <!-- own css -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&display=swap" rel="stylesheet"> 
+</head>
+<body id="gradient">
+    <h1 class="title">Generate RGB(a) color</h1>
+    <div class="pick-color">
+        <input oninput="setGradient()" type="color" class="color1" name="color1" id="first-color">
+        <input oninput="setGradient()" type="color" class="color2" name="color2" id="second-color">    
+    </div>
+    <h2 class="subtitle">Current color</h2>
+    <h3></h3>
+
+<script src="./script.js"></script>
+</body>
+</html>
